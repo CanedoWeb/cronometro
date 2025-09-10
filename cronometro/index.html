@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CronometroJs</title>
+    <script src="script.js" defer></script>
+    <style>
+        .cronometro{
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cronometro">
+            <div class="time" id="minutes">00</div>
+            <div class="separator">:</div>
+            <div class="time" id="seconds">00</div>
+            <div class="separator">:</div>
+            <div class="time" id="miliseconds">000</div>
+        </div>
+        <div class="botoes">
+            <button class="start" id="start">Iniciar</button>
+            <button class="stop" id="stop">Parar</button>
+            <button class="reset" id="reset">Resetar</button>
+        </div>
+    </div>
+</body>
+</html>
